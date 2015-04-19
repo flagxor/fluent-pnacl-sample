@@ -1,0 +1,55 @@
+<html>
+<head>
+  <title>PNaCl Python Differ</title>
+  <link rel="stylesheet" href="diff.css">
+</head>
+<body>
+<script src="naclprocess.js"></script>
+<script src="diff.js"></script>
+<table>
+  <tr>
+    <td>
+Before:<br/>
+<textarea id="before" cols="60" rows="20">
+Shall I compare thee to a summer's day?
+Thou art more lovely and more temperate:
+Rough winds do shake the darling buds of May,
+And summer's lease hath all too short a date:
+Sometime too hot the eye of heaven shines,
+And often is his gold complexion dimm'd,
+And every fair from fair sometime declines,
+By chance, or nature's changing course untrimm'd:
+But thy eternal summer shall not fade,
+Nor lose possession of that fair thou ow'st,
+Nor shall death brag thou wander'st in his shade,
+When in eternal lines to time thou grow'st,
+  So long as men can breathe, or eyes can see,
+  So long lives this, and this gives life to thee.
+</textarea>
+    </td>
+    <td>
+After:<br/>
+<textarea id="after" cols="60" rows="20">
+Shall I compare thee to a winter's day?
+Thou art more unshapely and more discontent:
+Rough winds do shake the darling buds of May,
+And summer's lease hath all too short a date:
+Sometime too hot the eye of heaven shines,
+And often is his gold complexion dimm'd,
+And every fair from fair sometime declines,
+By chance, or nature's changing course untrimm'd:
+But thy eternal summer shall not fade,
+Nor lose possession of that fair thou ow'st,
+Nor shall death brag thou wander'st in his shade,
+When in eternal lines to time thou grow'st,
+  So long as men can breathe, or eyes can see,
+  So long lives this, and this gives life to thee.
+</textarea>
+<br/>
+    </td>
+  </tr>
+</table>
+Diff:<br/>
+<div id="diff">LOADING...</div>
+</body>
+</html>
