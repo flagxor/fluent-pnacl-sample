@@ -10,6 +10,9 @@ The [difflib](https://docs.python.org/2/library/difflib.html)
 library is used to produce a nice textual diff of the contents
 in two textareas.
 
+You can view the sample
+[here](https://flagxor.github.io/fluent-pnacl-sample/diff.html).
+
 To run the sample, host on a local webserver.
 For example you can use python:
   python -m SimpleHTTPServer 5103
